@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Warm Theme for Zotero",
+  "version": "0.1.0",
+  "description": "A warm ivory, beige and burnt orange color theme for Zotero, in light and dark mode.",
+  "author": "Yufei Xia",
+  "homepage_url": "https://github.com/YufeiXIA/zotero-warm-theme",
+  "icons": {
+    "48": "content/icon.svg",
+    "96": "content/icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "zotero-warm-theme@yufeixia",
+      "update_url": "https://github.com/YufeiXIA/zotero-warm-theme/releases/latest/download/update.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}
